@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { createScene } from "./scene";
-  import { Rotator, GlbLoader } from "$lib/playcanvas";
+  import { Rotator, GlbLoader } from "@/scripts"
   import { Entity } from "playcanvas";
 
   let el: HTMLCanvasElement;
